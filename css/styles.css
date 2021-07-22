@@ -16,6 +16,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--second-accent-text-color);
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 .list {
   list-style: none;
@@ -202,6 +203,7 @@ body {
 
 .footer {
   background-color: var(--second-bg-color);
+  margin: 0;
 }
 
 .logo-footer {
