@@ -28,6 +28,7 @@ body {
 
 .logo {
   text-decoration: none;
+  display: block;
 }
 
 .logo-web {
@@ -45,6 +46,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
+
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -52,6 +54,7 @@ body {
   line-height: 1, 14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
 }
 .site-contact .link {
   color: var(--primary-text-color);
@@ -79,8 +82,19 @@ body {
   line-height: 1, 14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
-
+.site-nav {
+  display: flex;
+}
+.site-nav li {
+  margin-right: 50px;
+}
+.auth-nav .item + .item {
+  margin-left: 12px;
+}
 .auth-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -89,12 +103,11 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
-.site-nav .link:hover,
-.site-nav .link:focus,
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-text-color);
+.auth-nav {
+  display: flex;
+}
+.auth-nav li {
+  margin-right: 50px;
 }
 
 .site-nav .link.current {
@@ -102,6 +115,8 @@ body {
 }
 .hero {
   background-color: #2f303a;
+  height: 600px;
+  text-align: center;
 }
 
 .hero-title {
@@ -113,12 +128,32 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
 }
+
 .button {
   color: var(--title-text-color);
   background-color: var(--accent-bg-color);
   cursor: pointer;
   font-family: inherit;
+}
+.button.hero {
+  color: var(--second-accent-text-color);
+  background-color: var(--buttons-bg-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: inline-block;
+  align-items: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  height: 50px;
 }
 
 .button.primary {
@@ -132,6 +167,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 5px;
 }
 
 .button.secondary {
@@ -143,12 +179,14 @@ body {
   line-height: 1, 63;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 5px;
 }
 .button.secondary:hover,
 .button.secondary:focus {
   background-color: var(--accent-text-color);
   color: var(--second-accent-text-color);
 }
+
 .section-title,
 .team-title {
   color: var(--title-text-color);
@@ -199,16 +237,36 @@ body {
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 270px;
+  color: var(--primary-text-color);
 }
 
 .footer {
   background-color: var(--second-bg-color);
-  margin: 0;
+  padding: 60px 0 0;
 }
 
 .logo-footer {
   color: var(--second-accent-text-color);
   font-size: 26px;
+}
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.address-list {
+  list-style: none;
+  padding: 0;
+  margin: 9px;
 }
 
 .address {
