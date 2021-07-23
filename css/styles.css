@@ -37,7 +37,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-left: 215px;
+  margin-left: 93px;
   }
 
 .logo-studio {
@@ -88,13 +88,22 @@ body {
 }
 
 .site-nav {
-  display: flex;
-}
+display: flex;
+margin: auto;
+  }
+
 .site-nav li {
   margin-right: 50px;
 }
 .auth-nav .item + .item {
-  margin-left: 12px;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.portofolio-buttons {
+  margin-left: 8px;
 }
 .auth-nav .link {
   color: var(--primary-text-color);
@@ -106,8 +115,8 @@ body {
 }
 .auth-nav {
   display: flex;
-  }
-  
+   }
+
 .auth-nav li {
   margin-right: 50px;
 }
@@ -200,6 +209,18 @@ body {
 .button.secondary:focus {
   background-color: var(--accent-text-color);
   color: var(--second-accent-text-color);
+}
+.portfolio-buttons-list .ibutton:not(:last-child) {
+margin-right: 8px;
+}
+.portfolio-buttons-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .section-title,
@@ -331,7 +352,12 @@ body {
 .portofolio-buttons {
   padding-top: 94px;
   padding-bottom: 50px;
-}
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+
 
 .visually-hidden {
   position: absolute;
