@@ -29,7 +29,7 @@ body {
 .logo {
   text-decoration: none;
   display: block;
-  }
+}
 
 .logo-web {
   color: var(--accent-text-color);
@@ -38,7 +38,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
   margin-left: 93px;
-  }
+}
 
 .logo-studio {
   color: var(--title-text-color);
@@ -46,7 +46,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  }
+}
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -57,7 +57,7 @@ body {
   text-decoration: none;
   display: flex;
   display: block;
-  }
+}
 .site-contact .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -66,7 +66,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--accent-text-color);
- }
+}
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav .link:hover,
@@ -88,9 +88,9 @@ body {
 }
 
 .site-nav {
-display: flex;
-margin: auto;
-  }
+  display: flex;
+  margin: auto;
+}
 
 .site-nav li {
   margin-right: 50px;
@@ -115,10 +115,21 @@ margin: auto;
 }
 .auth-nav {
   display: flex;
-   }
+  margin-right: 55px;
+}
 
 .auth-nav li {
   margin-right: 50px;
+}
+.feature-list {
+  width: 270px;
+  display: flex;
+}
+.what-we-do {
+  display: flex;
+}
+.what-we-do .item + .item {
+  margin-left: 30px;
 }
 
 .site-nav .link.current {
@@ -127,6 +138,7 @@ margin: auto;
 .block {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .hero {
   background-color: var(--second-bg-color);
@@ -211,9 +223,9 @@ margin: auto;
   color: var(--second-accent-text-color);
 }
 .portfolio-buttons-list .ibutton:not(:last-child) {
-margin-right: 8px;
+  margin-right: 8px;
 }
-.portfolio-buttons-list{
+.portfolio-buttons-list {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -242,6 +254,13 @@ margin-right: 8px;
 
 .team-list {
   list-style: none;
+  display: flex;
+}
+.team-list .item :not(:last-child) {
+  margin-left: 30px;
+}
+.team-list .item {
+  justify-content: center;
 }
 
 .team-name {
@@ -341,6 +360,7 @@ margin-right: 8px;
 
 .portfolio-part {
   text-decoration: none;
+  display: flex;
 }
 
 .address:hover,
@@ -356,8 +376,7 @@ margin-right: 8px;
   display: flex;
   margin: 0;
   padding: 0;
-  }
-
+}
 
 .visually-hidden {
   position: absolute;
