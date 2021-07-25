@@ -30,6 +30,11 @@ body {
   text-decoration: none;
   display: block;
 }
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 .logo-web {
   color: var(--accent-text-color);
@@ -45,6 +50,9 @@ body {
   font-family: var(--logo-font);
   font-size: 26px;
   line-height: 1.19;
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 0;
   text-decoration: none;
 }
 
@@ -135,7 +143,7 @@ body {
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
-.block {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -264,16 +272,34 @@ body {
 .feature-list .title {
   color: var(--title-text-color);
 }
-.team {
+.team-container {
   background-color: var(--accent-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-item {
+  background-color: var(--primary-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-info {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team-list {
   list-style: none;
   display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  padding-top: 50px;
 }
-.team-list .item :not(:last-child) {
-  margin-left: 30px;
+.team-list .team-item :not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-name {
@@ -288,13 +314,16 @@ body {
 .team-work {
   font-size: 16px;
   line-height: 1, 19;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  text-align: center;
+  margin: 0;
 }
-
-.text-line-first {
-  justify-content: center;
+.team-worker {
+  display: block;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 /*.text-line {
@@ -390,13 +419,17 @@ body {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  text-decoration: none;
 }
 
 .portfolio-part {
   margin-left: 30px;
   margin-top: 30px;
   text-decoration: none;
-  display: flex;
+}
+
+.portfolio-part {
+  /*display: flex;*/
 }
 
 .address:hover,
