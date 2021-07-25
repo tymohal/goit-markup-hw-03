@@ -310,7 +310,7 @@ body {
   margin: 0;
   padding-top: 50px;
 }
-.team-list .team-item :not(:last-child) {
+.team-list .team-item:not(:last-child) {
   margin-right: 30px;
 }
 
