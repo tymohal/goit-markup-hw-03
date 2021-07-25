@@ -58,10 +58,6 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.nav-container {
-  display: flex;
-  align-items: center;
-}
 
 .page-header {
   background-color: var(--primary-bg-color);
@@ -142,9 +138,9 @@ body {
   display: flex;
 }
 
-/*.auth-nav li {
+.auth-nav li {
   margin-right: 50px;
-}*/
+}
 .feature-list {
   width: 270px;
   display: flex;
