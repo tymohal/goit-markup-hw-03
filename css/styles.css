@@ -3,7 +3,6 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --second-accent-text-color: #ffffff;
-  /*--primary-bg-color: #ffffff;*/
   --accent-bg-color: #f5f4fa;
   --buttons-bg-color: #2196f3;
   --second-bg-color: #2f303a;
@@ -400,15 +399,20 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio-list {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1, 88;
-  letter-spacing: 0.03em;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
+
 .portfolio-type {
   display: flex;
   flex-wrap: wrap;
@@ -460,6 +464,7 @@ body {
 .portfolio-link {
   width: 370px;
   height: 404px;
+  text-decoration: none;
 }
 .container {
   display: flex;
