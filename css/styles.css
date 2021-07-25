@@ -401,7 +401,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
 
 .portfolio-list {
@@ -409,7 +408,6 @@ body {
   font-size: 16px;
   line-height: 1, 88;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .portfolio-type {
   display: flex;
@@ -420,13 +418,20 @@ body {
 }
 
 .portfolio-part {
+  width: 370px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
   margin-left: 30px;
-  margin-top: 30px;
-  text-decoration: none;
+  margin-top: 50px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 
-.portfolio-part {
-  /*display: flex;*/
+.card-name {
+  padding: 20px 0 4px 24px;
+}
+
+.card-type {
+  padding: 0 0 24px 24px;
 }
 
 .address:hover,
