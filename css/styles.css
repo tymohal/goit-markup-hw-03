@@ -30,10 +30,17 @@ body {
   text-decoration: none;
   display: block;
 }
-.block {
+
+.nav-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+}
+.logo-studio-header {
+  color: var(--title-text-color);
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo-web {
@@ -42,18 +49,31 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  /*margin-left: 93px;*/
 }
 
-.logo-studio {
+.logo-studio-header {
   color: var(--title-text-color);
   font-family: var(--logo-font);
   font-size: 26px;
   line-height: 1.19;
-  display: block;
-  margin: 0 0 20px 0;
-  padding: 0;
   text-decoration: none;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  background-color: var(--primary-bg-color);
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-nav .link {
@@ -103,13 +123,7 @@ body {
 .site-nav li {
   margin-right: 50px;
 }
-.auth-nav .item + .item {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-}
+
 .portofolio-buttons {
   margin-left: 8px;
 }
@@ -123,12 +137,14 @@ body {
 }
 .auth-nav {
   display: flex;
-  margin-right: 55px;
+}
+.auth-container {
+  display: flex;
 }
 
-.auth-nav li {
+/*.auth-nav li {
   margin-right: 50px;
-}
+}*/
 .feature-list {
   width: 270px;
   display: flex;
