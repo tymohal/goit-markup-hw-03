@@ -6,7 +6,6 @@
   --accent-bg-color: #f5f4fa;
   --buttons-bg-color: #2196f3;
   --second-bg-color: #2f303a;
-  
 
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
@@ -391,7 +390,7 @@ body {
   text-decoration: none;
   font-style: normal;
   display: block;
-  margin-bottom: 9px;
+  /*margin-bottom: 9px;*/
 }
 
 .portfolio-name {
@@ -421,6 +420,7 @@ body {
   margin: 0;
   margin-left: -30px;
   margin-top: -50px;
+  margin-bottom: 30px;
 }
 
 .portfolio-part {
