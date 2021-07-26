@@ -79,7 +79,6 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   display: flex;
-  display: block;
 }
 .site-contact .link {
   color: var(--primary-text-color);
@@ -368,7 +367,7 @@ body {
 .address-list {
   list-style: none;
   padding: 0;
-  margin: 9px;
+  /*margin: 9px;*/
 }
 
 .address-map {
@@ -391,6 +390,12 @@ body {
   font-style: normal;
   display: block;
   /*margin-bottom: 9px;*/
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-name {
@@ -438,6 +443,9 @@ body {
 
 .card-type {
   padding: 0 0 24px 24px;
+}
+.card-info {
+  padding: 20px 0 20px 24px;
 }
 
 .address:hover,
