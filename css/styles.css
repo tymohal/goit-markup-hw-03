@@ -394,6 +394,12 @@ body {
   text-decoration: none;
   font-style: normal;
   display: block;
+ }
+
+ .address-link:not(:last-child) {
+margin-bottom: 9px;
+}
+
   /*margin-bottom: 9px;*/
 }
 
