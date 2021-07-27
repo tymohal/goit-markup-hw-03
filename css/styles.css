@@ -165,6 +165,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*background-image: url(../images/Hero.jpg);*/
 }
 
 .hero-title {
@@ -204,6 +205,10 @@ body {
   cursor: pointer;
   height: 50px;
 }
+/*.background-button {
+  color: var(--second-accent-text-color);
+  background-color: var(--buttons-bg-color);
+}*/
 
 .button.primary {
   color: var(--second-accent-text-color);
