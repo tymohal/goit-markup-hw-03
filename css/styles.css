@@ -132,7 +132,7 @@ ul {
 .site-nav .link:focus,
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: var(--accent-text-color);
+color: var(--accent-text-color);
 }
 
 .site-nav .link.current {
@@ -152,6 +152,7 @@ ul {
 
 .site-nav {
   display: flex;
+  margin-left: 93px;
   
   }
 
@@ -172,19 +173,18 @@ ul {
 }
 .auth-nav {
   display: flex;
-   
-  
 }
 
-/*.auth-nav .item:not(:last-child) {
+
+.auth-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+
+
+/*.auth-nav li {
   margin-right: 50px;
 }*/
-
-
-
-.auth-nav li {
-  margin-right: 50px;
-}
 
 .feature-list {
   width: 270px;
