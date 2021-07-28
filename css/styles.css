@@ -63,12 +63,18 @@ body {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.section-data {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .site-nav .link {
@@ -279,6 +285,10 @@ body {
   background-color: var(--accent-bg-color);
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .team-item {
   background-color: var(--primary-bg-color);
@@ -336,6 +346,7 @@ body {
   line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 14px;
 }
 
 .title-text {
@@ -353,7 +364,12 @@ body {
 
 .footer {
   background-color: var(--second-bg-color);
-  padding: 60px 0;
+  /*padding: 60px 0;*/
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
 }
 
 .logo-footer {
@@ -416,6 +432,13 @@ img {
   padding: 0;
 }
 
+.porfolio-fix {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .portfolio-list {
   color: var(--primary-text-color);
   font-size: 16px;
@@ -445,13 +468,6 @@ img {
   flex-basis: calc((100% - 90px) / 3);
 }
 
-.card-name {
-  padding: 20px 0 4px 24px;
-}
-
-.card-type {
-  padding: 0 0 24px 24px;
-}
 .card-info {
   padding: 20px 0 20px 24px;
 }
