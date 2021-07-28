@@ -159,6 +159,8 @@ ul {
 .feature-list {
   width: 270px;
   display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .what-we-do {
   display: flex;
