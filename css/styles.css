@@ -364,11 +364,7 @@ body {
 
 .footer {
   background-color: var(--second-bg-color);
-  /*padding: 60px 0;*/
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 60px 0;
   text-decoration: none;
 }
 
