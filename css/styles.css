@@ -303,10 +303,10 @@ ul {
   background-color: var(--accent-bg-color);
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1200px;
+  /*width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 15px;*/
 }
 .team-item {
   background-color: var(--primary-bg-color);
@@ -328,6 +328,8 @@ ul {
   padding: 0;
   margin: 0;
   padding-top: 50px;
+  /*margin-left: 215px;
+  margin-right: 215px;*/
 }
 .team-list .team-item:not(:last-child) {
   margin-right: 30px;
