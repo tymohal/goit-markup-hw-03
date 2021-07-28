@@ -83,6 +83,13 @@ ul {
   line-height: 1.19;
   text-decoration: none;
 }
+.header-def{
+  display: flex;
+  align-items:center;
+ }
+
+
+
 
 .page-header {
   background-color: var(--primary-bg-color);
@@ -139,12 +146,14 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav {
   display: flex;
-  margin: auto;
-}
+  
+  }
 
 .site-nav li {
   margin-right: 50px;
@@ -163,10 +172,17 @@ ul {
 }
 .auth-nav {
   display: flex;
+  
+  
+  
+  
 }
-.auth-container {
-  display: flex;
+
+.auth-nav .item:not(:first-child) {
+  margin-left: 50px;
 }
+
+
 
 .auth-nav li {
   margin-right: 50px;
@@ -378,6 +394,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 14px;
+  text-transform: uppercase;
 }
 
 .title-text {
