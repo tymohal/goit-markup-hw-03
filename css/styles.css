@@ -172,21 +172,20 @@ ul {
 }
 .auth-nav {
   display: flex;
-  
-  
-  
+   
   
 }
 
-.auth-nav .item:not(:first-child) {
-  margin-left: 50px;
-}
+/*.auth-nav .item:not(:last-child) {
+  margin-right: 50px;
+}*/
 
 
 
 .auth-nav li {
   margin-right: 50px;
 }
+
 .feature-list {
   width: 270px;
   display: flex;
@@ -394,7 +393,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 14px;
-  text-transform: uppercase;
+  
 }
 
 .title-text {
