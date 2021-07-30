@@ -218,6 +218,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-position: center;
 }
 
 .hero-title {
