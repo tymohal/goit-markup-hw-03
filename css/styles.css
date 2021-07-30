@@ -71,6 +71,21 @@ ul {
   line-height: 1.19;
   text-decoration: none;
   margin-right: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.logo-web-footer {
+  color: var(--accent-text-color);
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-right: 93px;
+  margin-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 0;
 }
 
 .logo-studio-header {
@@ -156,16 +171,33 @@ ul {
   margin-right: 50px;
 }
 
+.auth-nav-item .auth-nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .feature-list {
   width: 270px;
   display: flex;
   margin-top: 94px;
   margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: 0;
+  margin-right: 0;
 }
+
+.feature-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-work {
+  padding-bottom: 94px;
+}
+
 .what-we-do {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 }
 .what-we-do .item + .item {
   margin-left: 30px;
@@ -293,7 +325,7 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 50px 0 50px;
+  margin: 0 0 50px;
 }
 
 .feature-list .title {
@@ -301,15 +333,14 @@ ul {
 }
 .team-container {
   background-color: var(--accent-bg-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
   /*width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;*/
 }
 .team-item {
-  background-color: var(--primary-bg-color);
+  background-color: var(--second-accent-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -327,13 +358,15 @@ ul {
   justify-content: center;
   padding: 0;
   margin: 0;
-  padding-top: 50px;
-  /*margin-left: 215px;
-  margin-right: 215px;*/
+  /*padding-top: 50px;*/
 }
 .team-list .team-item:not(:last-child) {
   margin-right: 30px;
 }
+/*.team-name,
+.team-worker {
+  padding: 30px 32px 32px 30px;
+}*/
 
 .team-name {
   color: var(--title-text-color);
@@ -367,14 +400,14 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 14px;
+  margin-top: 0;
 }
 
 .title-text {
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   margin-bottom: 0;
   margin-top: 0;
@@ -475,7 +508,7 @@ img {
 }
 
 .card-info {
-  padding: 20px 0 20px 24px;
+  padding: 20px 24px;
 }
 
 .address:hover,
